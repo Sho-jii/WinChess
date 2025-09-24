@@ -164,7 +164,3 @@ Contributions welcome. Suggested workflow:
 
 ---
 
-If you'd like, I can:
-- Add the LICENSE and THIRD-PARTY-NOTICES files,
-- Replace the hardcoded music path in ChessWindow.cs with a Resources-based approach,
-- Or open a PR that implements configurable asset paths and moves the music into project resources.
