@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2367663-B1D6-4C08-B870-0C5B4A056E9A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Chess</RootNamespace>
+    <AssemblyName>Chess</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ReaLTaiizor">
+      <HintPath>..\PROJECT2\packages\ReaLTaiizor.3.8.0.2\lib\net48\ReaLTaiizor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AvatarSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AvatarSelection.Designer.cs">
+      <DependentUpon>AvatarSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Board.cs" />
+    <Compile Include="ChessPiece.cs" />
+    <Compile Include="ChessWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChessWindow.Designer.cs">
+      <DependentUpon>ChessWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Continue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Continue.Designer.cs">
+      <DependentUpon>Continue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Movement.cs" />
+    <Compile Include="PieceSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PieceSelection.Designer.cs">
+      <DependentUpon>PieceSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerSetupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayerSetupForm.Designer.cs">
+      <DependentUpon>PlayerSetupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tile.Designer.cs">
+      <DependentUpon>Tile.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AvatarSelection.resx">
+      <DependentUpon>AvatarSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChessWindow.resx">
+      <DependentUpon>ChessWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Continue.resx">
+      <DependentUpon>Continue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PieceSelection.resx">
+      <DependentUpon>PieceSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayerSetupForm.resx">
+      <DependentUpon>PlayerSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tile.resx">
+      <DependentUpon>Tile.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WKing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WKnight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WPawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WBishop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WQueen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WRook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BPawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BQueen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BRook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BBishop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BKing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BKnight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PossibleMove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OLDPaper2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChessFrames.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undoArrrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redoArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CantRedo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undoArrrowClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PossibleMV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PossibleM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hu Tao Handwriting.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zhongli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\liuyun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yoimiya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yelan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gaming.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shougun%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shinobu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playerboy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nahida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kazuha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hutao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playergirl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bennett.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cyno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eula.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ganyu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pauses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plays.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carefree.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute%281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

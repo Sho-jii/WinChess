@@ -1,0 +1,61 @@
+C:\Users\Slava\source\repos\Chess\bin\Debug\Chess.exe.config
+C:\Users\Slava\source\repos\Chess\bin\Debug\Chess.exe
+C:\Users\Slava\source\repos\Chess\bin\Debug\Chess.pdb
+C:\Users\Slava\source\repos\Chess\obj\Debug\Chess.csprojAssemblyReference.cache
+C:\Users\Slava\source\repos\Chess\obj\Debug\Chess.Properties.Resources.resources
+C:\Users\Slava\source\repos\Chess\obj\Debug\Chess.Tile.resources
+C:\Users\Slava\source\repos\Chess\obj\Debug\Chess.csproj.GenerateResource.cache
+C:\Users\Slava\source\repos\Chess\obj\Debug\Chess.exe
+C:\Users\Slava\source\repos\Chess\obj\Debug\Chess.pdb
+C:\Users\Slava\source\repos\Chess\obj\Debug\Chess.Chess.resources
+C:\Users\Slava\source\repos\Chess\obj\Debug\Chess.PieceSelection.resources
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.csproj.AssemblyReference.cache
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.exe
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.pdb
+C:\Users\Jarib\source\repos\Chess-main\bin\Debug\Chess.exe.config
+C:\Users\Jarib\source\repos\Chess-main\bin\Debug\Chess.exe
+C:\Users\Jarib\source\repos\Chess-main\bin\Debug\Chess.pdb
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.Chess.resources
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.PieceSelection.resources
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.Properties.Resources.resources
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.Tile.resources
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.csproj.GenerateResource.cache
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.csproj.CoreCompileInputs.cache
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.PlayerSetupForm.resources
+C:\Users\Jarib\source\repos\Chess-main\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jarib\source\repos\Chess-main\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.csproj.CopyComplete
+C:\Users\Jarib\source\repos\Chess-main\bin\Debug\MetroFramework.dll
+C:\Users\Jarib\source\repos\Chess-main\bin\Debug\Guna.UI2.dll
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.AvatarSelection.resources
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Interop.WMPLib.dll
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.csproj.ResolveComReference.cache
+C:\Users\Jarib\source\repos\Chess-main\bin\Debug\Interop.WMPLib.dll
+C:\Users\Jarib\source\repos\Chess-main\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Jarib\source\repos\Chess-main\obj\Debug\Chess.Continue.resources
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\bin\Debug\Chess.exe.config
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\bin\Debug\Chess.exe
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\bin\Debug\Chess.pdb
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\bin\Debug\Guna.UI2.dll
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\bin\Debug\MetroFramework.dll
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\bin\Debug\Interop.WMPLib.dll
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.csproj.AssemblyReference.cache
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Interop.WMPLib.dll
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.csproj.ResolveComReference.cache
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.AvatarSelection.resources
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.Chess.resources
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.Continue.resources
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.PieceSelection.resources
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.PlayerSetupForm.resources
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.Properties.Resources.resources
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.Tile.resources
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.csproj.GenerateResource.cache
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.csproj.CoreCompileInputs.cache
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.csproj.CopyComplete
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.exe
+C:\Users\Jarib\source\repos\WinChess- SIOCO-VILLANUEVA-LEGASPI-ARGUELLES-RENS\obj\Debug\Chess.pdb
